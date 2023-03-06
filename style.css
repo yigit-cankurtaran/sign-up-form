@@ -37,3 +37,11 @@ body {
   font-weight: bold;
   margin: 3rem;
 }
+
+/* give the form a white background, pad it above the background, give it a slight shadow. */
+
+form {
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
