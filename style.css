@@ -1,0 +1,39 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+/* reserve the left 1/3rd of the window to an image. */
+
+#left {
+  float: left;
+  width: 33%;
+  height: 100%;
+  background-image: url("");
+  background-size: cover;
+}
+
+/* reserve the right 2/3rds of the window to a form. */
+
+#right {
+  float: right;
+  width: 66%;
+  background-color: #f2f2f2;
+  margin: 0;
+  height: 100%;
+}
+
+/* give the right-top class 2rem font size, 3rem margin */
+
+.right-top {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 3rem;
+}
