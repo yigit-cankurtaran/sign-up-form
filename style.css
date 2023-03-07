@@ -85,3 +85,20 @@ input {
 #reminder a {
   color: #ff6600;
 }
+
+#reminder a:hover {
+  color: #ff9900;
+}
+
+/* put the footer class in the bottom, make it smaller */
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+}
